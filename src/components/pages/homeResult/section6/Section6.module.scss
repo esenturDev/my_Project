@@ -1,0 +1,16 @@
+.section6 {
+	margin-top: 10rem;
+	margin-bottom: 8.5rem;
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 1.8rem;
+		p {
+			color: #252626;
+			font-weight: 700;
+			font-size: 1.8rem;
+		}
+	}
+}

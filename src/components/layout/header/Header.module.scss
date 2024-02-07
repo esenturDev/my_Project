@@ -1,0 +1,41 @@
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	backdrop-filter: blur(7px);
+	// @media (max-width: 767px) {
+	// 	width: 100%;
+	// }
+
+	.content {
+		padding-block: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.divcontent {
+			display: flex;
+			gap: 1rem;
+
+			.p {
+				font-size: 1.5rem;
+				font-weight: 600;
+				color: black;
+			}
+		}
+		.divcontent1 {
+			display: flex;
+			gap: 1rem;
+			@media (max-width: 767px) {
+				display: none;
+			}
+
+			p {
+				color: #35afbf;
+				font-size: 1.3rem;
+				font-weight: 500;
+			}
+		}
+	}
+}
